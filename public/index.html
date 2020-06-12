@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <button id="signOut">Sign Out</button>
+  <form id="signInForm">
+    <p>
+      <label for="un">username</label>
+      <input type="text" name="un" id="un">
+    </p>
+    <p>
+      <button id="signIn">Sign In</button>
+    </p>
+  </form>
+  <form id="signUpForm">
+    <p>
+      <label for="username">username</label>
+      <input type="text" name="username" id="username">
+    </p>
+    <p>
+      <button id="signUp">Sign Up</button>
+    </p>
+  </form>
+  <h5 id="user"></h5>
+  <form>
+    <p>
+      <label for="item">item</label>
+      <input type="text" name="item" id="item">
+    </p>
+    <p>
+      <label for="time">time</label>
+      <input type="text" name="time" id="time">
+    </p>
+    <p>
+      <button id="addItem">Add Item</button>
+    </p>
+  </form>
+  <h6>Total Time: <span id="total"></span></h6>
+  <ul id="items"></ul>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
